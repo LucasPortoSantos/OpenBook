@@ -1,0 +1,114 @@
+/* CSS DE TODAS AS PAGINAS DE CONTROLE */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Poppins";
+  /*background: #ecf6ea;*/
+  background: #fdfdfd;
+  color: #157035;
+}
+span{
+color: #00aa3c;
+}
+a{
+  text-decoration: none;
+}
+.titulo {
+  position: relative;
+  transform: translateY(-5%);
+  left: 30px;
+  color: #000000;
+  text-align: center;
+  font-size: large;
+}
+h1{
+margin-bottom: 20%;
+font-size: 40px;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 20px; 
+width: 60vw;
+margin-bottom: 10%;
+
+}
+
+.button-group {
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+flex-basis: calc(33.333% - 40px); 
+flex-wrap: wrap;
+}
+
+.btn-green {
+box-shadow: 2px 4px rgba(0, 0, 0, 0.475);
+padding: 17px 14px;
+font-size: 16px;
+border-radius: 5px 0px 0px 5px;
+background-color:#2A6E42;
+cursor: pointer;
+}
+
+.btn-white #btn-consulta{
+  font-size: 5px;
+}
+
+.btn-green img {
+width: 48px;
+height: 48px;
+}
+
+.btn-white {
+width: 150px;
+font-size: 16px;
+border-radius: 0px 5px 5px 0px;
+box-shadow: 2px 4px rgba(18, 71, 11, 0.475);
+cursor: pointer;
+background-color:#ffffff;
+font-family: "Poppins";
+text-align: center;
+}
+
+/* IMAGENS */
+
+.logoindex {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  text-align: end;
+}
+
+#ilustracao{
+  width: 19vw;
+}
+.poliglota {
+  position:absolute;
+  bottom: -6px;
+  left: 0
+}
+@media screen and (max-width: 768px) {
+  #ilustracao {
+      width: 50%;
+  }
+}
+.OpenBook {
+  position: absolute;
+  bottom: 170px;
+  left: 70px;
+  height: 0px;
+}

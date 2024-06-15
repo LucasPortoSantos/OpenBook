@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    background: #fdfdfd;
+}
+
+.divH1 {
+    width: 100%;
+    text-align: center;
+}
+
+span {
+    color: #0baa11;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70vw;
+    margin-bottom: 10%;
+}
+
+.divFormPesquisa {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+#divGrupoPesquisar {
+    display: flex;
+    width: 100%;
+}
+
+#btnPesquisar {
+    flex: 0 0 auto;
+    background-color: rgb(31, 117, 74);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnPesquisar img {
+    width: 20px;
+    height: 20px;
+}
+
+.inputForm {
+    flex: 1 1 auto;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #0baa11;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inputForm:focus {
+    border-color: #0baa11;
+    box-shadow: 0 0 5px rgba(11, 170, 17, 0.5);
+}
+
+.btn {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-editar {
+    background-color: rgb(31, 117, 74);
+}
+
+.btn-excluir {
+    background-color: rgb(56, 56, 56);
+}
+
+.imgBtn {
+    width: 70%;
+    margin-top: 3px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 15px;
+    padding: 8px;
+    border: 2px solid #b8b8b8;
+    text-align: center;
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(31, 117, 74);
+    color: white;
+}
+
+#divGrupoPesquisar {
+    border: 2px solid rgb(31, 117, 74);
+    border-radius: 5px;
+    width: 300px;
+}
+
+#ImgBotaoExcluir {
+    margin-left: 3px;
+}
+
+#lupa {
+    width: 30px;
+}
+
+/* IMAGENS */
+
+.logoindex {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    max-width: 50%;
+    text-align: end;
+}
+
+#ilustracao {
+    width: 25vw;
+}
+
+.poliglota {
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    #ilustracao {
+        width: 50%;
+    }
+}
+
+.OpenBook {
+    position: absolute;
+    bottom: 170px;
+    left: 70px;
+    height: 0px;
+}
